@@ -1,17 +1,54 @@
-# basic_bloc_app
+# BLoC Counter App 🚀
 
-A new Flutter project.
+A simple Flutter app built to practice **BLoC State Management** using `flutter_bloc`.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+* Increment counter
+* Decrement counter
+* Reset counter
+* Dynamic UI updates with `BlocBuilder`
 
-A few resources to get you started if this is your first Flutter project:
+## 🎥 Demo
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+<img width="800" height="1600" alt="bloc" src="https://github.com/user-attachments/assets/ad73751d-43be-4e6f-b18d-10785df92bf2" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+## 🛠️ Tech Stack
+
+* Flutter
+* Dart
+* flutter_bloc
+
+## 📂 Structure
+
+```bash id="2cfvr8"
+lib/
+├── bloc/
+│   ├── counter_bloc.dart
+│   ├── counter_event.dart
+│   └── counter_state.dart
+├── counter_page.dart
+└── main.dart
+```
+
+## ▶️ Run Project
+
+```bash id="t0bqu0"
+flutter pub get
+flutter run
+```
+
+## 📦 Dependency
+
+```yaml id="nmg2v5"
+flutter_bloc: ^8.1.6
+```
+
+## 👨‍💻 Author
+
+Deepesh Suthar
+
+Learning Flutter BLoC and state management.
